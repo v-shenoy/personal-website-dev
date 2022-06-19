@@ -46,10 +46,10 @@ params:
     enabled: true
     title: "Vighnesh Shenoy"
     subtitle: "I am a software engineer at Microsoft working in the Azure Functions team. Welcome to the dumping ground for my thoughts."
-    imageUrl: "/DP.jpg" # optional
+    imageUrl: "/DP-Rock.jpg" # optional
     imageTitle: "a-picture-of-my-face" 
-    imageWidth: 320
-    imageHeight: 320
+    imageWidth: 375
+    imageHeight: 375
     buttons:
       - name: Posts
         url: "/posts/"
@@ -58,15 +58,17 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/v-shenoy/"
+      url: "https://github.com/v-shenoy"
     - name: linkedin
-      url: "https://www.linkedin.com/in/v-shenoy/"
+      url: "https://www.linkedin.com/in/v-shenoy"
     - name: cv
       url: "/resume/"
     - name: email
       url: "mailto:vighneshq@gmail.com"
     - name: twitter
-      url: "https://twitter.com/bitsinadatabase/"
+      url: "https://twitter.com/bitsinadatabase"
+    - name: lichess
+      url: "https://lichess.org/@/bitsinadatabase"
 
   editPost:
     URL: "https://github.com/v-shenoy/v-shenoy.github.io/content"
