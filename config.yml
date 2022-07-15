@@ -73,7 +73,7 @@ params:
       url: "/index.xml"
 
   editPost:
-    URL: "https://github.com/v-shenoy/v-shenoy.github.io/content"
+    URL: "https://github.com/v-shenoy/personal-website-dev/blob/main/content"
     Text: "Suggest changes."
     appendFilePath: true
 
