@@ -16,20 +16,20 @@ params:
   env: production
   title: Vighnesh Shenoy
   description: "An outlet for my thoughts."
-  keywords: ["Blog", "Personal Website", "Development", "Hugo",  "PaperMod"]
+  keywords: ["Blog", "Personal Website", "Development", "Hugo",  "PaperMod", "Programming", "Computer Science"]
   author: Vighnesh Shenoy
   DateFormat: "Jan 2, 2006"
-  defaultTheme: auto
-  disableThemeToggle: false
+  defaultTheme: dark
+  disableThemeToggle: true
 
   ShowReadingTime: true
-  ShowShareButtons: false
+  ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: true
   showtoc: false
@@ -50,7 +50,7 @@ params:
     enabled: true
     title: "Vighnesh Shenoy"
     subtitle: "I am a software engineer at Microsoft working in the Azure Functions team. Welcome to the dumping ground for my thoughts."
-    imageUrl: "/DP-Rock.jpg" # optional
+    imageUrl: "/DP-Rock.jpg"
     imageTitle: "a-picture-of-my-face" 
     imageWidth: 375
     imageHeight: 375
@@ -73,6 +73,8 @@ params:
       url: "https://twitter.com/bitsinadatabase"
     - name: lichess
       url: "https://lichess.org/@/bitsinadatabase"
+    - name: rss
+      url: "/index.xml"
 
   editPost:
     URL: "https://github.com/v-shenoy/v-shenoy.github.io/content"
@@ -101,6 +103,9 @@ menu:
       name: search
       url: /search
       weight: 5
+    - identifier: rss
+      name: rss
+      url: /index.xml
 
 outputs:
   home:
