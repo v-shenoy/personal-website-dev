@@ -20,8 +20,8 @@ params:
   keywords: ["Blog", "Personal Website", "Development", "Hugo",  "PaperMod", "Programming", "Computer Science"]
   author: Vighnesh Shenoy
   DateFormat: "Jan 2, 2006"
-  defaultTheme: dark
-  disableThemeToggle: true
+  defaultTheme: auto
+  disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: true
