@@ -1,5 +1,5 @@
 baseURL: "https://v-shenoy.github.io/"
-title: Vighnesh Shenoy
+title: Blog — Vighnesh Shenoy
 paginate: 5
 theme: PaperMod
 
@@ -15,7 +15,7 @@ minify:
 
 params:
   env: production
-  title: Vighnesh Shenoy
+  title: Blog — Vighnesh Shenoy
   description: "An outlet for my thoughts."
   keywords: ["Blog", "Personal Website", "Development", "Hugo",  "PaperMod", "Programming", "Computer Science"]
   author: Vighnesh Shenoy
